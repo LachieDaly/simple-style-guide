@@ -6,21 +6,53 @@ body {
 
 section {
     margin: 5px auto;
-    width: 800px;
+    /* width: 800px; */
     border: 2px solid black;
-
+    min-width: 100px;
+    max-width: 1000px;
+    background-color: aliceblue;
 }
 
-.color {
-    padding: 50px;
-    display: inline-block;
+header {
+    text-align: center;
+}
+
+h2, h3, p {
     margin: 10px;
 }
 
-.blue {
-    background-color: blue;
+
+.color {
+    text-align: center;
+    width: 200px;
+    padding: 50px;
+    display: inline-block;
+    margin: 10px;
+    color: white;
 }
 
-.pink {
-    background-color: pink;
+.red {
+    background-color: #B80C09;
+}
+
+.blue {
+    background-color: #0B4F6C;
+}
+
+.cyan {
+    background-color: #01BAEF;
+}
+
+.white {
+    background-color: #FBFBFF;
+    color: black;
+}
+
+.black {
+    background-color: #040F16;
+    
+}
+
+.pt-serif h3, .pt-serif p {
+    font-family: 'PT Serif'
 }
